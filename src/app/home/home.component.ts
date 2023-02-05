@@ -10,7 +10,7 @@ import { Flight } from '../flight.model';
 })
 export class HomeComponent implements OnInit {
 
-  flights: Flight[];
+  flights!: Flight[];
 
   constructor(private flightsService: FlightsService) { }
 
